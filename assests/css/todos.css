@@ -2,3 +2,8 @@ body
 {
 	background-color: pink
 }
+#container
+{
+	margin: 0 auto;
+	width: 300px;
+}
