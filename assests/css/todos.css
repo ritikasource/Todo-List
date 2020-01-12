@@ -1,9 +1,13 @@
-body
-{
-	background-color: pink
-}
+
 #container
 {
 	margin: 0 auto;
 	width: 300px;
+	border: 2px solid black;
+}
+
+.completed
+{
+color: gray;
+text-decoration: line-through;
 }
