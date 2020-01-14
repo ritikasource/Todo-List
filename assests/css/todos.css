@@ -1,13 +1,21 @@
 
 #container
 {
-	margin: 0 auto;
+	margin: 100px auto;
 	width: 300px;
-	border: 2px solid black;
+	box-shadow: 5px 10px 18px #FBEDED;
+	background-color: #FBEDED;
+
 }
 
 .completed
 {
 color: gray;
 text-decoration: line-through;
+}
+
+h1{
+	background-color:  #CBAAAA;
+		color: white;
+        margin: 0;
 }

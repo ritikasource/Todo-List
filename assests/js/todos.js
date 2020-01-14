@@ -9,7 +9,7 @@ $("ul").on("click","span",function(event){
 		$(this).remove();
 	});
 
-event.stopPropogation();
+event.stopPropagation();
 });
 
 $("input[type='text']").keypress(function(event){
@@ -18,7 +18,7 @@ $("input[type='text']").keypress(function(event){
 	{
 		var todosText=$(this).val();
 	    $(this).val("");
-		$("ul").append("<li><span>X<span> " + todosText + "<li>");
+		$("ul").append("<li><span>X</span> " + todosText + "<li>");
 	 
 	}
 
