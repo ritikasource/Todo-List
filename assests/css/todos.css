@@ -35,6 +35,10 @@ h1
 }
 body{
 	font-family: 'Gayathri', sans-serif;
+	background: #C9FFBF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFAFBD, #C9FFBF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFAFBD, #C9FFBF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 input{
 	width: 100%;
@@ -43,6 +47,9 @@ input{
 	background-color: #FBEDED;
 	box-sizing: border-box;
 	color: #CBAAAA;
+	border: 3px solid rgba(0, 0, 0, 0);
+	font-family: 'Gayathri', sans-serif;
+	color: rgba(244, 240, 240, 0.2);
 	
 }
 input:focus
@@ -56,11 +63,36 @@ li
 {
     background: white;
     color: #666;
-    height: 60px;
-    line-height: 60px;
+    height: 40px;
+    line-height: 40px;
 }
 
 li:nth-child(2n)
 {
 	background: #FBEDED;
+}
+.fa-pencil-square
+{
+	float: right;
+}
+
+span 
+{
+ 
+ background-color: red;
+ color: white;
+ width: 0px;
+ height: 40px;
+ margin-right:  20px;
+ text-align: center;
+ display: inline-block;
+ transition: 0.2s linear;
+ opacity: 0;
+
+}
+li:hover span
+{
+width: 40px;
+opacity: 1.0;
+
 }
